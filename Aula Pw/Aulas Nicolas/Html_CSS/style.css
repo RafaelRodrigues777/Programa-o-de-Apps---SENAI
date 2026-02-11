@@ -1,0 +1,25 @@
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 0px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .bloco{
+        display: grid;
+        grid-template-columns: repeat(3, 40px);
+        grid-template-rows: repeat(3, 40px);
+        background: #ffffff;
+        padding: 10px;
+    }
+
+    .celula{
+        width: 40px;
+        height: 40px;
+        background: #000000;
+    }
+
+    .AQUI{
+        background: rgb(255, 255, 255);
+    }
+
