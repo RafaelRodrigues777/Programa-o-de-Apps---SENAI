@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name":"Diego",
+        "salary": 1231,
+        "parents":{
+            "father":"Schupeta",
+            "mother":"Manamu"
+        }
+    },
+
+    {
+        "id": 1,
+        "name":"Jon",
+        "salary": 1231,
+        "parents":{
+            "father":"Carlitos",
+            "mother":"Quelita"
+        }
+    },
+    {
+        "id": 2,
+        "name":"Rainbow",
+        "salary": 1231,
+        "parents":{
+            "father":"Cocktito",
+            "mother":"Manimia"
+        }
+    }
+]
