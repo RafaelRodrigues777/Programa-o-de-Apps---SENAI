@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Layout</title>
+<style>
+body {
+  margin: 0;
+  background: #ddd;
+}
+
+/* Área de cima */
+.topo {
+  height: 300px;
+  position: relative;
+}
+
+/* Quadrados pequenos amarelos */
+.quadrado {
+  width: 30px;
+  height: 30px;
+  background: yellow;
+  position: absolute;
+}
+
+/* Blocos grandes */
+.bloco {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+
+.vermelho { background: red; left: 50px; bottom: 0; }
+.azul { background: royalblue; left: 50%; transform: translateX(-50%); bottom: 0; }
+.laranja { background: orange; right: 50px; bottom: 0; }
+
+/* Quadrado rosa */
+.rosa {
+  width: 30px;
+  height: 30px;
+  background: hotpink;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Parte de baixo */
+.base {
+  display: flex;
+  height: 120px;
+}
+
+.azul-base {
+  background: #4aa3d4;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vermelho-base {
+  background: red;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Círculos */
+.circulo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.branco { background: #ddd; }
+.amarelo { background: yellow; }
+
+</style>
+</head>
+<body>
+
+<div class="topo">
+  <!-- quadrados espalhados -->
+  <div class="quadrado" style="top:10px; left:10px;"></div>
+  <div class="quadrado" style="top:80px; left:120px;"></div>
+  <div class="quadrado" style="top:80px; right:120px;"></div>
+
+  <div class="rosa"></div>
+
+  <!-- blocos -->
+  <div class="bloco vermelho"></div>
+  <div class="bloco azul"></div>
+  <div class="bloco laranja"></div>
+</div>
+
+<div class="base">
+  <div class="azul-base">
+    <div class="circulo branco"></div>
+    <div class="circulo branco"></div>
+  </div>
+  <div class="vermelho-base">
+    <div class="circulo amarelo"></div>
+  </div>
+</div>
+
+</body>
+</html>

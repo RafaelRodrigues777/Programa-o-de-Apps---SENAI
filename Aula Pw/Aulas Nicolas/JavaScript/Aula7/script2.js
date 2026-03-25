@@ -169,3 +169,18 @@ const activeSalary = users.reduce((acc, user) =>{
 }, 0)
 
 console.log(activeSalary)
+
+
+// Filtrar apenas usuários ativos
+// Filtrar apenas usuários inativos
+// Filtrar apenas desenvolvedores
+// Filtrar apenas designers
+// Filtrar apenas managers
+// Filtrar apenas analistas de dados
+// Filtrar usuários com salário maior que 5000
+// Filtrar usuários com salário menor que 4000
+// Filtrar usuários maiores de 30 anos
+// Filtrar usuários menores de 25 anos
+// Analistas de dados que estão ativos
+// Devs com salário maior que 4000
+// Managers com mais de 30 anos

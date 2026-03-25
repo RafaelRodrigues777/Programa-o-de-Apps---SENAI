@@ -30,6 +30,7 @@
     align-items: center;
     align-content: space-between;
     justify-content: space-between;
+    background-color: rgb(255, 174, 0);
 }
 
 #B2{
@@ -38,10 +39,14 @@
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    background-color: rgb(255, 174, 0);
+
 }
 
 #B3{
     display: flex;
+    background-color: rgba(0, 17, 255, 0.37);
+
 }
 
 .BlocoDivisorio1{
