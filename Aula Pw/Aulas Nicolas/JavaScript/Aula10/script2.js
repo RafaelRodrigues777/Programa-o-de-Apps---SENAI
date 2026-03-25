@@ -25,7 +25,5 @@ async function setData(){
     console.log(usuarios)
 }
 
-
-
 setData();
 

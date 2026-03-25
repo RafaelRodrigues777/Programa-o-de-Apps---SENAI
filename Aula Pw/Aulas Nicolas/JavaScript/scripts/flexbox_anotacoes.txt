@@ -1,0 +1,24 @@
+📦 ATIVAR FLEXBOX .container { display: flex; }
+
+🔁 FLEX-DIRECTION (direção dos itens) flex-direction: row; /* padrão
+(linha) / flex-direction: column; / coluna / flex-direction:
+row-reverse; / linha invertida / flex-direction: column-reverse; /
+coluna invertida */
+
+📍 ALIGN-ITEMS (alinha na vertical) align-items: flex-start; /* topo /
+align-items: center; / meio / align-items: flex-end; / baixo /
+align-items: stretch; / estica (padrão) */
+
+↔️ JUSTIFY-CONTENT (alinha na horizontal) justify-content: flex-start;
+/* início / justify-content: center; / centro / justify-content:
+flex-end; / fim / justify-content: space-between; / espaço entre /
+justify-content: space-around; / espaço ao redor / justify-content:
+space-evenly; / espaço igual */
+
+📚 ALIGN-CONTENT (quando tem várias linhas) align-content: flex-start;
+align-content: center; align-content: flex-end; align-content: stretch;
+align-content: space-between; align-content: space-around;
+
+🧠 RESUMINHO PRA DECORAR flex-direction → direção dos itens
+justify-content → horizontal align-items → vertical (uma linha)
+align-content → vertical (várias linhas)
